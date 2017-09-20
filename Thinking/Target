@@ -1,0 +1,17 @@
+目标：
+View -> Model
+Model -> View
+
+1. 3个关注点  
+   1. 视图Input/Select
+   2. {{Text}}
+   3. Model中的属性
+
+例如： 
+1. <input type="text" value="" v-model="username"/>  -- 绑定事件 为了修改Model的值，触发GetterSetter进行发布通知
+2. {{username}}   									 -- 绑定观察者
+3. Data : {username:"abel"}                          -- 绑定主题
+
+
+
+

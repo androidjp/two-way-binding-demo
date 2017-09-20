@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="app">
+		<input type="text" v-model="username">
+		{{username}}
+	</div>
+	<script>
+		var vm = new VModel({
+			id : "app"
+			data : {
+				username : "abel"
+			}
+		});
+	</script>
+</body>
+</html>
